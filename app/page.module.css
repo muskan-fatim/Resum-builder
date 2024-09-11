@@ -2,7 +2,7 @@
 .resumecontainer {
   width: 80%;
   margin: 20px auto;
-  background-color: #f5f5f5;
+  background-color: antiquewhite;
   padding: 20px;
   border: 2px solid #ddd;
   border-radius: 8px;
@@ -24,19 +24,18 @@
 }
 
 .resumeheader {
-  text-align: center;
   margin-bottom: 20px;
 }
 
 .h1 {
   font-size: 2.5em;
-  color: #333;
+  color:white;
+  background-color: #333;
   margin-bottom: 10px;
 }
 
 .resumeheader p {
   font-size: 1.2em;
-  color: #666;
 }
 
 /* Section for Education and other details */
@@ -46,13 +45,13 @@
 
 .resumesection h2 {
   font-size: 1.8em;
-  color: #4CAF50;
+  color: white;
+  background-color: #333;
   margin-bottom: 10px;
 }
 
 .resumesection p {
   font-size: 1.2em;
-  color: #555;
   line-height: 1.5;
 }
 
