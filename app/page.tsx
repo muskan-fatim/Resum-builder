@@ -53,12 +53,12 @@ const ResumeBuilder = () => {
   const ResumeDisplay = ({ formData }: { formData: any }) => (
     <div className={styles.resumecontainer}>
       <div className={styles.resumeheader}>
-        <h1 className={styles.h1}>{formData.name}</h1>
+                <h1 className={styles.h1}>Persnal Information</h1>
         <p>{formData.email}</p>
       </div>
       
       <div className={styles.resumesection}>
-        <h2>Education</h2>
+        <h2 className={styles.h1}>Education</h2>
         {formData.education.map((edu: any, index: number) => (
           <div key={index}>
             <p><strong>{edu.degree}</strong> - {edu.institution} ({edu.year})</p>
